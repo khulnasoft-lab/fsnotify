@@ -822,7 +822,7 @@ func BenchmarkAddRemove(b *testing.B) {
 	})
 }
 
-// Would panic on inotify: https://github.com/fsnotify/fsnotify/issues/616
+// Would panic on inotify: https://github.com/khulnasoft-lab/fsnotify/issues/616
 func TestRemoveRace(t *testing.T) {
 	t.Parallel()
 
